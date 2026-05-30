@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Users } from "lucide-react";
+import UserAccount from "@/components/UserAccount";
 
 export function Header() {
   return (
@@ -16,7 +17,9 @@ export function Header() {
           <Link className="rounded-2xl border bg-white px-4 py-2 shadow-sm" href="/search">Search</Link>
           <Link className="rounded-2xl bg-slate-900 px-4 py-2 text-white shadow-sm" href="/dashboard">Dashboard</Link>
         </nav>
+        <UserAccount />
       </div>
-    </header>
+      </header>
+
   );
 }

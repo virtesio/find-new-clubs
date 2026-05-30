@@ -17,7 +17,7 @@ export function GoogleLoginButton({ role }: { role: "member" | "group" }) {
 
   return (
     <button onClick={signIn} className="w-full rounded-2xl bg-slate-900 px-5 py-4 font-semibold text-white shadow-sm">
-      Continue with Google as {role === "member" ? "a member" : "a group"}
+      Login as {role === "member" ? "a Searcher" : "a Group"}
     </button>
   );
 }
