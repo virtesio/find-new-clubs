@@ -1,4 +1,4 @@
-import { Header } from "@/components/Header";
+import  Header  from "@/components/Header";
 import { GoogleLoginButton } from "@/components/GoogleLoginButton";
 import { CheckCircle, CreditCard, MapPin, Bell } from "lucide-react";
 
